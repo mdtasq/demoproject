@@ -27,6 +27,9 @@ public class LgAppliances {
 	@AfterTest
 	public void finish() {
 		System.out.println("dono hogaye cange");
+		//
+		//
+		
 
 	}
 
