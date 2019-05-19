@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="LGProducts(failed)">
+    <classes>
+      <class name="lg.LgAppliances">
+        <methods>
+          <include name="HomeApliances"/>
+          <include name="common"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- lg.LgAppliances -->
+    </classes>
+  </test> <!-- LGProducts(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
